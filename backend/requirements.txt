@@ -1,0 +1,37 @@
+# ─── Core Web Framework ───────────────────────────────────────────────────────
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ─── Task Queue ───────────────────────────────────────────────────────────────
+celery==5.3.4
+redis==5.0.1
+
+# ─── AI / Diffusion Models ────────────────────────────────────────────────────
+torch==2.1.0
+torchvision==0.16.0
+diffusers==0.24.0
+transformers==4.35.2
+accelerator==0.24.1
+huggingface-hub==0.19.4
+safetensors==0.4.1
+
+# ─── Image / Video Processing ─────────────────────────────────────────────────
+Pillow==10.1.0
+numpy==1.26.2
+opencv-python-headless==4.8.1.78
+imageio==2.31.6
+imageio-ffmpeg==0.4.9
+
+# ─── Face Analysis (InsightFace for InstantID) ────────────────────────────────
+insightface==0.7.3
+onnxruntime-gpu==1.16.3
+
+# ─── Comet ML Experiment Tracking ─────────────────────────────────────────────
+comet-ml==3.35.3
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+pydantic==2.5.2
+python-dotenv==1.0.0
+aiofiles==23.2.1
+httpx==0.25.2
